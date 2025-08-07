@@ -63,7 +63,7 @@ const Hero = () => {
                 View Research
               </a>
               <a
-                href="/cv.pdf"
+                href="/cv.pdf?v=2024"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-academic-blue text-academic-blue font-medium rounded-lg hover:bg-academic-blue hover:text-white transition-colors duration-200"

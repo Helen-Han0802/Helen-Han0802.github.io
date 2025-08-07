@@ -22,7 +22,7 @@ export default function CV() {
           </h1>
           <div className="flex justify-center">
             <a 
-              href="/cv.pdf" 
+              href="/cv.pdf?v=2024" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-academic-blue text-white font-medium rounded-lg hover:bg-academic-navy transition-colors duration-200 shadow-lg"
