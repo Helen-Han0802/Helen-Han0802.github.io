@@ -35,7 +35,7 @@ const Hero = () => {
                 Xuewen Han
               </h1>
               <p className="text-xl sm:text-2xl text-academic-gray mt-4 font-light">
-                Assistant Professor in Information Systems
+                Assistant Professor in Information, Technology and Innovation
               </p>
               <p className="text-lg text-academic-blue font-medium mt-2">
                 Shanghai Jiao Tong University, Shanghai
