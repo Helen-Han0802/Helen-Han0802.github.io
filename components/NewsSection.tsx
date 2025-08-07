@@ -3,6 +3,20 @@ import { Calendar, Award, BookOpen, Users } from 'lucide-react'
 const NewsSection = () => {
   const news = [
     {
+      date: "2025",
+      icon: <BookOpen className="text-accent-gold" size={20} />,
+      title: "Join SJTU",
+      description: "Join SJTU as an Assistant Professor",
+      type: "Recognition"
+    },
+    {
+      date: "2025",
+      icon: <BookOpen className="text-accent-gold" size={20} />,
+      title: "Ph.D. in Management Science and Engineering",
+      description: "Recieved Ph.D. in Management Science and Engineering from Tsinghua University",
+      type: "Recognition"
+    },
+    {
       date: "2024",
       icon: <Award className="text-accent-gold" size={20} />,
       title: "PACIS 2024 Doctoral Consortium",
@@ -22,13 +36,6 @@ const NewsSection = () => {
       title: "First Class Scholarship",
       description: "Awarded First Class Scholarship from Tsinghua University",
       type: "Award"
-    },
-    {
-      date: "2023",
-      icon: <Users className="text-green-600" size={20} />,
-      title: "ICIS Best Paper Nominee",
-      description: "Paper nominated for Best Paper at International Conference on Information Systems",
-      type: "Recognition"
     }
   ]
 

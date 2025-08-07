@@ -32,7 +32,7 @@ const Hero = () => {
           <div className={`space-y-8 ${isVisible ? 'animate-slide-up' : 'opacity-0'}`}>
             <div>
               <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-academic-navy leading-tight">
-                Xuewen Han
+                Xuewen Han (韩雪雯)
               </h1>
               <p className="text-xl sm:text-2xl text-academic-gray mt-4 font-light">
                 Assistant Professor in Information, Technology and Innovation
@@ -44,11 +44,12 @@ const Hero = () => {
 
             <div className="prose-academic">
               <p className="text-lg leading-relaxed">
-                Passionate researcher exploring the intersection of 
+                I am an Assistant Professor in the Department of Information, Technology and Innovation at the Antai College of Economics and Management, Shanghai Jiao Tong University. I received my Ph.D. in Management Science and Engineering from Tsinghua University in 2025, under the supervision of Professor Sean Xin Xu. Prior to that, I earned dual bachelor’s degrees in Management and Economics from Jilin University in 2019.
+             My research lies at the intersection of
                 <span className="font-semibold text-academic-blue"> Fintech</span>, 
                 <span className="font-semibold text-academic-blue"> Digital Innovation</span>, and 
-                <span className="font-semibold text-academic-blue"> Human-AR Interaction</span> 
-                through cutting-edge AI and machine learning methodologies.
+                <span className="font-semibold text-academic-blue"> Human-AR Interaction </span> 
+                I leverage cutting-edge generative AI and machine learning methods to investigate how emerging technologies are transforming financial services and user experiences.
               </p>
             </div>
 
