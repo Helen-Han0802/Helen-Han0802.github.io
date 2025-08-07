@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/PersonalSite' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/PersonalSite/' : '',
+  // Remove basePath and assetPrefix for GitHub Pages
+  // These will be handled by the deployment process
 }
 
 module.exports = nextConfig
