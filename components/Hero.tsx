@@ -26,10 +26,10 @@ const Hero = () => {
         }}></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-          {/* Left Column - Text Content (2/3 width) */}
-          <div className={`lg:col-span-2 space-y-8 ${isVisible ? 'animate-slide-up' : 'opacity-0'}`}>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
+          {/* Left Column - Text Content (3/5 width = 60%) */}
+          <div className={`lg:col-span-3 space-y-8 ${isVisible ? 'animate-slide-up' : 'opacity-0'}`}>
                         <div>
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-academic-navy leading-tight flex items-baseline flex-wrap gap-x-4">
                 <span>Xuewen Han</span>
@@ -55,7 +55,7 @@ const Hero = () => {
 
             <div className="prose-academic space-y-4">
               <p className="text-lg leading-relaxed">
-                I am an Assistant Professor in the Department of Information, Technology and Innovation at the Antai College of Economics and Management, Shanghai Jiao Tong University. I received my Ph.D. in Management Science and Engineering from Tsinghua University in 2025, under the supervision of Professor Sean Xin Xu.
+                I received my Ph.D. in Management Science and Engineering from Tsinghua University in 2025, under the supervision of Prof. Sean Xin Xu.
               </p>
               
               <p className="text-lg leading-relaxed">
@@ -88,11 +88,11 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Column - Profile Photo Slot (1/3 width) */}
-          <div className={`lg:col-span-1 relative mt-8 lg:mt-8 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
+          {/* Right Column - Profile Photo Slot (2/5 width = 40%) */}
+          <div className={`lg:col-span-2 relative mt-8 lg:mt-8 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
             <div className="relative">
               {/* Profile photo */}
-              <div className="w-full max-w-sm mx-auto rounded-2xl shadow-lg overflow-hidden aspect-[3/4]">
+              <div className="w-3/4 max-w-xs mx-auto rounded-2xl shadow-lg overflow-hidden aspect-[3/4]">
                 <img 
                   src="/profile.jpg" 
                   alt="Xuewen Han" 

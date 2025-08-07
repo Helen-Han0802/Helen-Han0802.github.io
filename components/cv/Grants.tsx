@@ -8,7 +8,7 @@ const Grants = () => {
       role: "Participant",
       funding: "200,000 RMB",
       period: "2024.01-2025.06",
-      status: "Ongoing"
+      status: "Ended"
     },
     {
       title: "Tsinghua University School of Economics and Management Research Fund Project",

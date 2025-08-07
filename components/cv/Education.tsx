@@ -4,10 +4,10 @@ const Education = () => {
   const education = [
     {
       institution: "TSINGHUA UNIVERSITY",
-      location: "Shanghai, China",
-      degree: "Ph.D. Candidate, Information Systems",
+      location: "Beijing, China",
+      degree: "Ph.D., Information Systems",
       advisor: "Advisor: Sean Xin Xu, Ph.D.",
-      period: "September 2019 - present",
+      period: "September 2019 - June 2025",
       current: true
     },
     {
@@ -20,7 +20,7 @@ const Education = () => {
     {
       institution: "JILIN UNIVERSITY",
       location: "Jilin, China",
-      degree: "Bachelor's Degree of Management & Bachelor's Degree of Economics",
+      degree: "B.M. & B.E. in Management & Economics",
       period: "September 2015 - June 2019",
       current: false
     }
