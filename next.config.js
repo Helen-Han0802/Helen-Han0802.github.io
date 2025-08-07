@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true
   },
   // Remove basePath and assetPrefix for GitHub Pages
-  // These will be handled by the deployment process
+  // The repository name will be handled by GitHub Pages automatically
 }
 
 module.exports = nextConfig
