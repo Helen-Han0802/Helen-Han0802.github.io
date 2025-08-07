@@ -10,10 +10,10 @@ const UnderReviewPapers = () => {
       statusColor: "bg-green-100 text-green-700"
     },
     {
-      title: "Governing Monetization Risks: The Impact of Anti-PAE Laws on Innovation Strategies in IT Firms",
+      title: "Legal Shields, Hidden Costs: The Dual Impact of Anti‑Patent‑Troll Laws on IT Firm Innovation",
       authors: ["Han, Xuewen", "Yin, Zhitao", "Rai, Arun"],
       journal: "Information Systems Research (UTD 24)",
-      status: "Second-round revision",
+      status: "Third-round revision",
       statusColor: "bg-blue-100 text-blue-700"
     },
     {

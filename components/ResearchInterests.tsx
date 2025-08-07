@@ -5,7 +5,7 @@ const ResearchInterests = () => {
     {
       icon: <TrendingUp className="text-accent-gold" size={32} />,
       title: "Fintech",
-      description: "Exploring financial technology innovations, crowdfunding platforms, and digital payment systems"
+      description: "Exploring user behavior sequence patterns with generative AI for intelligent marketing and fraud detection."
     },
     {
       icon: <Lightbulb className="text-blue-500" size={32} />,

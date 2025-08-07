@@ -8,7 +8,7 @@ import Service from '@/components/cv/Service'
 
 export const metadata: Metadata = {
   title: 'CV - Xuewen Han',
-  description: 'Complete curriculum vitae of Xuewen Han, Ph.D. Candidate in Information Systems at Tsinghua University',
+  description: 'Complete curriculum vitae of Xuewen Han, Assistant Professor in Information, Technology and Innovation at Shanghai Jiao Tong University',
 }
 
 export default function CV() {

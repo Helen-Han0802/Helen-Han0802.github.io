@@ -27,28 +27,42 @@ const Hero = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          {/* Left Column - Text Content */}
-          <div className={`space-y-8 ${isVisible ? 'animate-slide-up' : 'opacity-0'}`}>
-            <div>
-              <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-academic-navy leading-tight">
-                Xuewen Han (韩雪雯)
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+          {/* Left Column - Text Content (2/3 width) */}
+          <div className={`lg:col-span-2 space-y-8 ${isVisible ? 'animate-slide-up' : 'opacity-0'}`}>
+                        <div>
+              <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-academic-navy leading-tight flex items-baseline flex-wrap gap-x-4">
+                <span>Xuewen Han</span>
+                <span className="text-3xl sm:text-4xl lg:text-5xl text-academic-gray font-medium">
+                  (韩雪雯)
+                </span>
               </h1>
-              <p className="text-xl sm:text-2xl text-academic-gray mt-4 font-light">
-                Assistant Professor in Information, Technology and Innovation
-              </p>
-              <p className="text-lg text-academic-blue font-medium mt-2">
-                Shanghai Jiao Tong University, Shanghai
-              </p>
+              <div className="mt-6 space-y-2">
+                <p className="text-xl sm:text-2xl text-academic-blue font-semibold">
+                  Assistant Professor
+                </p>
+                <p className="text-lg text-academic-gray">
+                  Information, Technology and Innovation
+                </p>
+                <p className="text-lg text-academic-gray">
+                  Antai College of Economics and Management
+                </p>
+                <p className="text-lg text-academic-blue font-medium">
+                  Shanghai Jiao Tong University
+                </p>
+              </div>
             </div>
 
-            <div className="prose-academic">
+            <div className="prose-academic space-y-4">
               <p className="text-lg leading-relaxed">
-                I am an Assistant Professor in the Department of Information, Technology and Innovation at the Antai College of Economics and Management, Shanghai Jiao Tong University. I received my Ph.D. in Management Science and Engineering from Tsinghua University in 2025, under the supervision of Professor Sean Xin Xu. Prior to that, I earned dual bachelor’s degrees in Management and Economics from Jilin University in 2019.
-             My research lies at the intersection of
+                I am an Assistant Professor in the Department of Information, Technology and Innovation at the Antai College of Economics and Management, Shanghai Jiao Tong University. I received my Ph.D. in Management Science and Engineering from Tsinghua University in 2025, under the supervision of Professor Sean Xin Xu.
+              </p>
+              
+              <p className="text-lg leading-relaxed">
+                My research lies at the intersection of
                 <span className="font-semibold text-academic-blue"> Fintech</span>, 
                 <span className="font-semibold text-academic-blue"> Digital Innovation</span>, and 
-                <span className="font-semibold text-academic-blue"> Human-AR Interaction </span> 
+                <span className="font-semibold text-academic-blue"> Human-AR Interaction</span>. 
                 I leverage cutting-edge generative AI and machine learning methods to investigate how emerging technologies are transforming financial services and user experiences.
               </p>
             </div>
@@ -74,11 +88,11 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Column - Profile Photo Slot */}
-          <div className={`relative mt-8 lg:-mt-14 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
+          {/* Right Column - Profile Photo Slot (1/3 width) */}
+          <div className={`lg:col-span-1 relative mt-8 lg:mt-8 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
             <div className="relative">
               {/* Profile photo */}
-              <div className="w-80 h-120 mx-auto rounded-2xl shadow-lg overflow-hidden">
+              <div className="w-full max-w-sm mx-auto rounded-2xl shadow-lg overflow-hidden aspect-[3/4]">
                 <img 
                   src="/profile.jpg" 
                   alt="Xuewen Han" 

@@ -29,13 +29,6 @@ const NewsSection = () => {
       title: "Best Paper Award",
       description: "Received Best Paper Award at China Association Information Systems (CNAIS) conference",
       type: "Recognition"
-    },
-    {
-      date: "2023",
-      icon: <Award className="text-accent-gold" size={20} />,
-      title: "First Class Scholarship",
-      description: "Awarded First Class Scholarship from Tsinghua University",
-      type: "Award"
     }
   ]
 

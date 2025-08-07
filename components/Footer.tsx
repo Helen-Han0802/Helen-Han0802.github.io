@@ -41,7 +41,7 @@ const Footer = () => {
           <div>
             <h3 className="font-display text-xl font-semibold mb-4">About</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Ph.D. Candidate in Information Systems at Tsinghua University, 
+              Assistant professor in Information, Technology and Innovation at Shanghai Jiao Tong University, 
               focusing on Fintech, Digital Innovation, and Human-AR Interaction 
               using advanced AI and machine learning techniques.
             </p>

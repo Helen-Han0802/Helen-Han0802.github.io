@@ -4,13 +4,13 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Xuewen Han - Academic Researcher',
-  description: 'Ph.D. Candidate in Information Systems at Tsinghua University, specializing in Fintech, Digital Innovation, and Human-AR Interaction',
-  keywords: 'Xuewen Han, Academic, Researcher, Information Systems, Tsinghua University, Fintech, AI, Machine Learning',
+  title: 'Xuewen Han (韩雪雯) - Assistant Professor',
+  description: 'Assistant Professor in Information, Technology and Innovation at Shanghai Jiao Tong University, specializing in Fintech, Digital Innovation, and Human-AR Interaction',
+  keywords: 'Xuewen Han, Assistant Professor, Information Technology, Shanghai Jiao Tong University, Fintech, AI, Machine Learning, Digital Innovation',
   authors: [{ name: 'Xuewen Han' }],
   openGraph: {
-    title: 'Xuewen Han - Academic Researcher',
-    description: 'Ph.D. Candidate in Information Systems at Tsinghua University',
+    title: 'Xuewen Han - Assistant Professor',
+    description: 'Assistant Professor at Shanghai Jiao Tong University specializing in Fintech and Digital Innovation',
     type: 'website',
   },
 }
