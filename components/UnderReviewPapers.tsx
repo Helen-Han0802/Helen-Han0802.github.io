@@ -20,7 +20,7 @@ const UnderReviewPapers = () => {
       title: "Interpretable Text Embedding via Generative AI Models",
       authors: ["Han, Xuewen", "Cai, Yao", "Xu, Sean Xin", "Zhang, Kunpeng"],
       journal: "MIS Quarterly (UTD 24)",
-      status: "Second-round revision",
+      status: "Third-round revision",
       statusColor: "bg-blue-100 text-blue-700"
     },
     {
